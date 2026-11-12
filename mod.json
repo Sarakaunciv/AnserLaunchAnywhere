@@ -1,13 +1,17 @@
 {
     "name": "Anser Launch Anywhere",
-    "displayName": "Anser Launch Anywhere",
+    "displayName": "Anser Launch Rule Change",
     "author": "SarakaUnciv",
-    "description": "You can launch from any sector to any visible sector
+    "description": "1. You can launch from any sector to any visible sector
+	
+	2. Force Erekir to be able to launch with schematics and resource like in Serpulo [[]#00ffff]can be turn off[[]]
+	
+	3. Force game to be able to deposit resource to non core blocks [[]#00ffff]can be turn off[[]]
 	
 	[[]#ff0000]Check out my other Anser mod name[[]]
 	[[]#ffff00]Comment on my Youtube if you wanna talk to me Link in repo[[]]
 	
-	This mod was made in build 160.4",
-    "version": "1.0",
+	This mod was made in build 160.7",
+    "version": "1.1",
     "minGameVersion": 147
 }
