@@ -59,3 +59,27 @@ Events.on(ClientLoadEvent, () => {
 	
 	setForceAllowNonCoreDeposit();
 });
+
+var setRulesTime = 0;
+Events.on(RulesLoadEvent, () => {
+	setRulesTime = 0;
+});
+Events.run(Trigger.update, () => {
+	if (!Vars.state.isGame())
+	{
+		setRulesTime = 0;
+		return;
+	}
+	else
+	{
+		if (setRulesTime == 60)
+		{
+			setRulesTime++;
+			setForceAllowNonCoreDeposit();
+		}
+		if (setRulesTime < 60)
+		{
+			setRulesTime++;
+		}
+	}
+});
