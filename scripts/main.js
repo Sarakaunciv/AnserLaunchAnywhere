@@ -72,12 +72,17 @@ Events.run(Trigger.update, () => {
 	}
 	else
 	{
+		if (setRulesTime == 600)
+		{
+			setRulesTime = 61;
+			return;
+		}
 		if (setRulesTime == 60)
 		{
 			setRulesTime++;
 			setForceAllowNonCoreDeposit();
 		}
-		if (setRulesTime < 60)
+		else
 		{
 			setRulesTime++;
 		}
