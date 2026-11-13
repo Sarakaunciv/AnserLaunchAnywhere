@@ -2,7 +2,9 @@
     "name": "Anser Launch Anywhere",
     "displayName": "Anser Launch Rule Change",
     "author": "SarakaUnciv",
-    "description": "1. You can launch from any sector to any visible sector
+    "description": "V.1.4 fix bug that ForceNonCoreDeposit not active Automatically
+	
+	1. You can launch from any sector to any visible sector
 	
 	2. Force Erekir to be able to launch with schematics and resource like in Serpulo [[]#00ffff]can be turn off[[]]
 	
@@ -12,6 +14,6 @@
 	[[]#ffff00]Comment on my Youtube if you wanna talk to me Link in repo[[]]
 	
 	This mod was made in build 160.7",
-    "version": "1.3",
+    "version": "1.4",
     "minGameVersion": 147
 }
